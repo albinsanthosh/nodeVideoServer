@@ -1,0 +1,85 @@
+Node.js, Express, MongoDB, React JS - Video Server Project Tutorial
+https://youtu.be/PS4C2snld1s
+
+https://github.com/chirayu-joshi/videoServer
+
+npx create-react-app client
+(create a react app with name as client)
+
+npm install --save express
+(install express)
+
+npm install --save-dev nodemon
+(For dev , nodemon rerun when project save with changes)
+
+http://127.0.0.1:3333/api/signUp
+(server)
+
+http://localhost:3000/
+(client)
+
+npm install --save-dev morgan
+(for logging request)
+
+npm install --save-dev mongoose body-parser cors
+
+sudo service mongodb start
+(start mongo db)
+
+
+sudo service mongodb status
+(status of mongo db)
+
+useNewUrlParser, useUnifiedTopology, useFindAndModify, and useCreateIndex are no longer supported options. Mongoose 6 always behaves as if useNewUrlParser, useUnifiedTopology, and useCreateIndex are true, and useFindAndModify is false. Please remove these options from your code.
+
+npm install -save bcrypt
+(for encryption in hash form)
+
+bootstrap v4.0.0
+
+
+npm install -save react-router react-router-dom
+
+npm install -save axios
+(to send get and post request)
+
+"proxy": "http://127.0.0.1:3333" in package.json of client
+
+npm install --save reactstrap react-toastify
+(uplaod was successful or not message)
+
+npm install --save multer
+(to save files to local storage)
+
+
+npm install --save child_process fs 
+
+npm install --save ffmpeg
+
+install ffmpeg
+https://www.geeksforgeeks.org/how-to-install-ffmpeg-on-windows/
+
+npm install --save jsonwebtoken 
+Json web token
+
+check-auth (user defined)- validating user from server-side
+
+decoded token
+https://jwt.io/
+
+localStorage.getItem('userTokenTime');
+
+
+npm install --save video.js
+Also download the video.js css file also
+
+After render only componentdidmount is called.
+
+Redirect has been removed from v6. You can replace Redirect with Navigate.
+
+mongodb commands
+use db;
+db.uploads.remove({}) 
+
+this.setState({}, callback )
+Use callback to use the changes
